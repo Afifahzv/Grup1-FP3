@@ -1,0 +1,132 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #585a61;
+}
+
+a {
+  color: (270deg, #8C32F0 0%, #E73587 100%);
+  ;
+  text-decoration: none;
+}
+
+a:hover {
+  color: (270deg, #8C32F0 0%, #E73587 100%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: (270deg, #8C32F0 0%, #E73587 100%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: (270deg, #8C32F0 0%, #E73587 100%);
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f2f5fa;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #8C32F0 0%, #E73587 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# our work
+--------------------------------------------------------------*/
+.details .content+.content {
+  margin-top: 100px;
+}
+
+.details .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.details .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details .content ul li {
+  padding-bottom: 10px;
+}
+
+.details .content ul i {
+  font-size: 24px;
+  padding-right: 2px;
+  color: #fff;
+  line-height: 0;
+}
+
+.details .content p:last-child {
+  margin-bottom: 0;
+}
