@@ -130,3 +130,63 @@ section {
 .details .content p:last-child {
   margin-bottom: 0;
 }
+
+
+/* CSS dev Desti */
+.text-desti-1 {
+  font-style: "basic";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #020E35;
+}
+
+.text-desti-2 {
+  font-style: "basic";
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 110px;
+  color: #020E35;
+}
+
+.text-desti-3 {
+  color: #E73587;
+}
+
+.form-label {
+  font-style: "basic";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2C3241;
+}
+
+.form-label-2 {
+  font-style: "WorkSans";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.form-control-2 {
+  font-style: "Basic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #2C3241;
+}
+
+.btn {
+  background: linear-gradient(
+                90deg,
+                #e73587 0%,
+                #e73587 25%,
+                #8c32f0 75%,
+                #8c32f0 100%
+              );
+}
+
+footer {
+  background-color: #020E35;
+}
+
+/* Akhir CSS dev Desti */
