@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Rubik+Distressed&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- title this page -->
     <title>fp-3</title>
     <meta content="" name="description" />
@@ -24,12 +32,122 @@
       rel="stylesheet"
     />
 
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
     <!-- ======= Header ======= -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><svg
+            width="100"
+            height="126"
+            viewBox="0 0 100 126"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_0_1)">
+              <path
+                d="M100 120H0V126H100V120Z"
+                fill="url(#paint0_linear_0_1)"
+              />
+            </g>
+            <g clip-path="url(#clip1_0_1)">
+              <path d="M100 0H0V120H100V0Z" fill="#020E35" />
+              <g clip-path="url(#clip2_0_1)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M61.0467 36C57.7684 36 55.12 38.6521 55.12 41.925V56.9875C55.12 63.7103 49.6779 69.1375 42.9652 69.1375C36.2437 69.1375 30.8133 63.6997 30.8133 56.989V56.9875V56.9807C30.8096 56.2072 30.1812 55.5813 29.4066 55.5813C28.6298 55.5813 28 56.2109 28 56.9875C28 68.9109 36.9171 76.4688 46.7333 76.4688C57.9274 76.4688 66.9734 67.4114 66.9734 56.2344V41.925C66.9733 38.6473 64.3197 36 61.0467 36ZM69.7866 42.025H71.5934C72.3702 42.025 73 42.6547 73 43.4313C73 44.2079 72.3702 44.8375 71.5934 44.8375H69.7866V42.025ZM42.9651 66.325C37.8158 66.325 33.6265 62.1369 33.6265 56.9807H33.6266V56.9674C33.6242 56.4818 33.5381 56.0155 33.3837 55.5813H48.9933C50.2135 55.5813 51.3506 55.2214 52.3066 54.6042V56.9875C52.3066 62.1362 48.1161 66.325 42.9651 66.325ZM49.5466 81.1875H54.2667C55.0435 81.1875 55.6733 81.8171 55.6733 82.5938C55.6733 83.3704 55.0435 84 54.2667 84H46.7333C45.9565 84 45.3267 83.3704 45.3267 82.5938C45.3267 81.8171 45.9565 81.1875 46.7333 81.1875V79.2812C47.6812 79.2812 48.6202 79.224 49.5466 79.1123V81.1875Z"
+                  fill="white"
+                />
+              </g>
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_0_1"
+                x1="100"
+                y1="120"
+                x2="0"
+                y2="120"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#8C32F0" />
+                <stop offset="1" stop-color="#E73587" />
+              </linearGradient>
+              <clipPath id="clip0_0_1">
+                <rect
+                  width="100"
+                  height="6"
+                  fill="white"
+                  transform="translate(0 120)"
+                />
+              </clipPath>
+              <clipPath id="clip1_0_1">
+                <rect width="100" height="120" fill="white" />
+              </clipPath>
+              <clipPath id="clip2_0_1">
+                <rect
+                  width="45"
+                  height="48"
+                  fill="white"
+                  transform="translate(28 36)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <div class="navbar-collapse">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#home" id="home">Home</a>
+            <a class="nav-link" href="#" id="about">About</a>
+            <a class="nav-link" href="#" id="services">Services</a>
+            <a class="nav-link" href="#main" id="portofolio">Portofolio</a>
+            <button type="button" class="btn btn-primary" id="contact-btn">
+              <p>Contact Us</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- BANNER -->
+    <section id="home">
+      <div class="container">
+        <div class="header">
+          <div class="row">
+            <div class="text col-md-6">
+              <h1>
+                We Create <br />
+                Content that <br />ranks
+              </h1>
+              <div class="bttn d-flex justify-content-right">
+                <button type="submit" class="btn">SEE OUR WORK</button>
+              </div>
+            </div>
+            <img src="assets/img/header.png" alt="" />
+          </div>
+        </div>
+        <div style="text-align: right">
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
 
     <!-- ======= about ======= -->
 

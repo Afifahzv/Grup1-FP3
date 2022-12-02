@@ -1,16 +1,255 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* A & B Section */
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+}
+
+.navbar .navbar-brand svg {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 135px;
+    top: 0px;
+    
+    background: #020E35;
+}
+
+.navbar .navbar-collapse .navbar-nav #home {
+    position: absolute;
+    width: 33px;
+    height: 15px;
+    left: 776px;
+    top: 32px;
+    padding: 0px;
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    color: #000000;
+}
+
+.navbar .navbar-collapse .navbar-nav #about {
+    position: absolute;
+    width: 38px;
+    height: 15px;
+    left: 866px;
+    top: 32px;
+    padding: 0px;
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    color: #000000;
+
+}
+
+.navbar .navbar-collapse .navbar-nav #services {
+    position: absolute;
+    width: 53px;
+    height: 15px;
+    left: 962px;
+    top: 32px;
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    color: #000000;
+    padding: 0px;
+}
+
+.navbar .navbar-collapse .navbar-nav #portofolio {
+    position: absolute;
+    width: 63px;
+    height: 15px;
+    left: 1073px;
+    top: 32px;
+    padding: 0px;
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    color: #000000;
+}
+
+.navbar .navbar-collapse .navbar-nav #contact-btn {
+    position: absolute;
+    width: 107px;
+    height: 40px;
+    left: 1198px;
+    top: 20px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+.navbar .navbar-collapse .navbar-nav #contact-btn p {
+    position: absolute;
+    width: 63px;
+    height: 15px;
+    left: 15px;
+    top: 12px;
+    right: 29px;
+    bottom: 13px;
+
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.header h1 {
+  font-size: 60px;
+  margin-bottom: 10%;
+  color: #020e35;
+}
+
+.header button,
+.card button,
+.navbar button {
+  border-radius: 0;
+  border: 0;
+  background-image: linear-gradient(to right, #8c32f0, #e73587);
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10%;
+}
+
+
+.header {
+  margin: 10%;
+}
+
+.dot {
+  height: 170px;
+  width: 170px;
+  background-color: #f0f3fa;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  left: -80px;
+}
+
+.aboutus u,
+.services u {
+  text-decoration-color: #e73587;
+}
+
+.services {
+  margin-top: 5%;
+  left: 5%;
+  right: 5%;
+}
+
+.header .bttn {
+  padding-bottom: 5%;
+}
+
+.header button {
+  height: 50px;
+  width: 200px;
+}
+
+.header img {
+  height: 50%;
+  width: 50%;
+}
+
+.card-deck {
+  margin-top: 5%;
+}
+.card {
+  margin-right: 5%;
+}
+
+.btn-contact {
+  text-align: center;
+  font-weight: bold;
+  line-height: 38px;
+  background-image: linear-gradient(to right, #8c32f0, #e73587) !important;
+}
+
+.btn-contact a {
+  vertical-align: middle;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.buttonRight {
+  background-image: linear-gradient(to right, #8c32f0, #e73587);
+  border: none;
+  color: white;
+  padding: 20px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 210px 2px 4px 2px;
+  flex-direction: column;
+  align-items: center;
+  height: 76px;
+  width: 76px;
+  border: 3px solid #fff;
+  border-radius: 70%;
+}
+
+@media screen and (max-device-width: 720px) {
+  .buttonRight {
+    margin-top: 50px;
+    transform: rotate(90deg);
+  }
+}
+
+.roundedRight button {
+  font-size: 40px;
+  vertical-align: text-top !important;
+}
+
+.card.a {
+  background: #fdf8e3;
+}
+
+.card.b {
+  background: #f0f3fa;
+}
+
+.card.c {
+  background: #feeff0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #585a61;
 }
 
 a {
-  color: (270deg, #8C32F0 0%, #E73587 100%);
-  ;
+  color: (270deg, #8c32f0 0%, #e73587 100%);
   text-decoration: none;
 }
 
 a:hover {
-  color: (270deg, #8C32F0 0%, #E73587 100%);
+  color: (270deg, #8c32f0 0%, #e73587 100%);
   text-decoration: none;
 }
 
@@ -33,7 +272,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: (270deg, #8C32F0 0%, #E73587 100%);
+  background: (270deg, #8c32f0 0%, #e73587 100%);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -47,7 +286,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: (270deg, #8C32F0 0%, #E73587 100%);
+  background: (270deg, #8c32f0 0%, #e73587 100%);
   color: #fff;
 }
 
@@ -64,7 +303,6 @@ h6 {
     transition-delay: 0 !important;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Sections General
@@ -88,7 +326,7 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #8C32F0 0%, #E73587 100%;
+  color: #8c32f0 0%, #e73587 100%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -96,12 +334,10 @@ section {
   margin-bottom: 0;
 }
 
-
-
 /*--------------------------------------------------------------
 # our work
 --------------------------------------------------------------*/
-.details .content+.content {
+.details .content + .content {
   margin-top: 100px;
 }
 
@@ -131,14 +367,13 @@ section {
   margin-bottom: 0;
 }
 
-
 /* CSS dev Desti */
 .text-desti-1 {
   font-style: "basic";
   font-weight: 400;
   font-size: 30px;
   line-height: 38px;
-  color: #020E35;
+  color: #020e35;
 }
 
 .text-desti-2 {
@@ -146,11 +381,11 @@ section {
   font-weight: 400;
   font-size: 90px;
   line-height: 110px;
-  color: #020E35;
+  color: #020e35;
 }
 
 .text-desti-3 {
-  color: #E73587;
+  color: #e73587;
 }
 
 .form-label {
@@ -158,7 +393,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #2C3241;
+  color: #2c3241;
 }
 
 .form-label-2 {
@@ -172,21 +407,21 @@ section {
   font-weight: 600;
   font-size: 18px;
   line-height: 36px;
-  color: #2C3241;
+  color: #2c3241;
 }
 
 .btn {
   background: linear-gradient(
-                90deg,
-                #e73587 0%,
-                #e73587 25%,
-                #8c32f0 75%,
-                #8c32f0 100%
-              );
+    90deg,
+    #e73587 0%,
+    #e73587 25%,
+    #8c32f0 75%,
+    #8c32f0 100%
+  );
 }
 
 footer {
-  background-color: #020E35;
+  background-color: #020e35;
 }
 
 /* Akhir CSS dev Desti */
